@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  background-color: #09090b;
+  color: white;
+  -webkit-tap-highlight-color: transparent; /* মোবাইলে ক্লিক করলে নীল দাগ হবে না */
+}
+
+/* কাস্টম স্ক্রলবার হাইড করা */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
